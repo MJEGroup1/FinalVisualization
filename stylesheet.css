@@ -5,3 +5,11 @@ body {
 .axis .domain {
   display: none;
 }
+
+.bar {
+  cursor: pointer;
+}
+
+.bar:hover {
+  opacity: 0.8;
+}
