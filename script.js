@@ -18,8 +18,10 @@ var z = d3.scaleOrdinal()
 .range(["#591487", "#9973B3"]);
 
 d3.csv("data.csv", function(d, i, columns) {
-  for (var i = 1, n = columns.length; i < n; ++i) d[columns[i]] = +d[columns[i]];
-    return d;
+  for (var i = 1, n = columns.length; i < n; ++i) {
+    d[columns[i]] = +d[columns[i]];
+  }
+  return d;
 }, function(error, data) {
   if (error) throw error;
 
@@ -27,15 +29,23 @@ d3.csv("data.csv", function(d, i, columns) {
 
   x0.domain(data.map(function(d) { return d.Year; }));
   x1.domain(keys).rangeRound([0, x0.bandwidth()]);
-  y.domain([0, d3.max(data, function(d) { return d3.max(keys, function(key) { return d[key]; }); })]).nice();
+  y.domain([0, d3.max(data, function(d) {
+    return d3.max(keys, function(key) { return d[key]; });
+  })]).nice();
 
   g.append("g")
   .selectAll("g")
   .data(data)
   .enter().append("g")
-  .attr("transform", function(d) { return "translate(" + x0(d.Year) + ",0)"; })
+  .attr("transform", function(d) {
+    return "translate(" + x0(d.Year) + ",0)";
+  })
   .selectAll("rect")
-  .data(function(d) { return keys.map(function(key) { return {key: key, value: d[key]}; }); })
+  .data(function(d) {
+    return keys.map(function(key) {
+      return {key: key, value: d[key]};
+    });
+  })
   .enter().append("rect")
   .attr("class", "bar")
   .attr("x", function(d) { return x1(d.key); })
@@ -51,15 +61,28 @@ d3.csv("data.csv", function(d, i, columns) {
 
   g.append("g")
   .attr("class", "axis")
-  .call(d3.axisLeft(y).ticks(null, "s"))
-  .append("text")
-  .attr("x", 90)
-  .attr("y", y(y.ticks().pop()) + 0.5)
-  .attr("dy", "0.32em")
+  .call(d3.axisLeft(y).ticks(null, "s"));
+
+  // y-axis label
+  g.append("text")
+  .attr('class', 'y-axis')
+  .attr("transform", "rotate(-90)")
+  .attr("x", -250)
+  .attr("y", -25)
   .attr("fill", "#000")
   .attr("font-weight", "bold")
   .attr("text-anchor", "rt")
   .text("Number of People");
+
+  // x-axis label
+  g.append("text")
+  .attr('class', 'x-axis')
+  .attr("x", width/2 + 20)
+  .attr("y", height + 30)
+  .attr("fill", "#000")
+  .attr("font-weight", "bold")
+  .attr("text-anchor", "end")
+  .text("Years");
 
   var legend = g.append("g")
   .attr("font-family", "sans-serif")
@@ -81,4 +104,12 @@ d3.csv("data.csv", function(d, i, columns) {
   .attr("y", 9.5)
   .attr("dy", "0.32em")
   .text(function(d) { return d; });
+
+  const bars = Array.from(document.querySelectorAll('.bar'));
+  bars.forEach(bar => bar.addEventListener('click', clickHandler));
+
+  function clickHandler() {
+    console.log('bar clicked');
+  }
 });
+
