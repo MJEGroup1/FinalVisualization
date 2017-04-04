@@ -118,9 +118,9 @@ d3.csv("data.csv", function(d, i, columns) {
   .attr("dy", "0.32em")
   .text(function(d) { return d; });
 
-
   const bars = Array.from(document.querySelectorAll('.bar'));
   bars.forEach(bar => bar.addEventListener('click', clickHandler));
+  // console.log(bars);
 
   function clickHandler() {
     const year = this.parentNode.className.baseVal;
