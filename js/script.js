@@ -18,11 +18,11 @@ var z = d3.scaleOrdinal()
 .range(["#591487", "#9973B3"]);
 
 var tip = d3.tip()
-  .attr('class', 'd3-tip')
-  .offset([-10, 0])
-  .html(function(d) {
-    return "<span>" + d.value + "</span>";
-  });
+.attr('class', 'd3-tip')
+.offset([-10, 0])
+.html(function(d) {
+  return "<span>" + d.value + "</span>";
+});
 
 svg.call(tip);
 
@@ -118,23 +118,74 @@ d3.csv("data.csv", function(d, i, columns) {
   .attr("dy", "0.32em")
   .text(function(d) { return d; });
 
+
+
+  // Not D3 code ========================================================
+
   const bars = Array.from(document.querySelectorAll('.bar'));
+  const container = document.querySelector('.story-container');
+  const row = document.querySelector('.grid .row');
+
   bars.forEach(bar => bar.addEventListener('click', barClick));
-  console.log(bars);
 
   function barClick() {
+    const alumni = 'alumni';
     const year = this.parentNode.className.baseVal;
+    container.dataset.year = alumni.concat(year);
 
+    container.classList.remove('show');
+    $('.story-container').fadeIn();
+
+    setImg(container.dataset.year);
   }
-
-
-  const pics = Array.from(document.querySelectorAll('.prof-pic'));
-  pics.forEach(pic => pic.addEventListener('click', picClick));
-  console.log(pics);
 
   function picClick() {
-    // const year = this.parentNode.className.baseVal;
-    console.log('pic clicked');
+    const imgName = this.getAttribute('data-name');
+    const name = document.querySelector('.name');
+
+    name.textContent = imgName;
+    container.classList.add('show');
+    row.classList.add('filter');
+    this.classList.add('no-filter');
+    // console.log(this);
+
+    setBio(container.dataset.year, imgName);
   }
+
+
+  function setImg(alumniYear) {
+    console.log('set images');
+    const alumniArray = eval(alumniYear);
+    // clear all children of row to add new ones
+    while (row.firstChild) {
+      row.removeChild(row.firstChild);
+    }
+
+    alumniArray.forEach(alum => {
+      const newImg = document.createElement('img');
+      newImg.className = "prof-pic";
+      newImg.src = alum.pic;
+      newImg.dataset.name = alum.name;
+      // newImg.dataset.bio = alum.bio;
+
+      row.appendChild(newImg);
+    });
+
+    const pics = Array.from(document.querySelectorAll('.prof-pic'));
+    pics.forEach(pic => pic.addEventListener('click', picClick));
+  }
+
+
+  function setBio(alumniYear, imgName) {
+    const bio = document.querySelector('.bio');
+    const alumniArray = eval(alumniYear);
+
+    alumniArray.forEach(alum => {
+      if (alum.name === imgName) {
+        bio.textContent = alum.bio;
+      }
+    });
+  }
+
 });
 
