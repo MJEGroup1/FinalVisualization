@@ -100,6 +100,13 @@ svg {
   opacity: .75;
 }
 
+.story-container .blurb {
+  display: none;
+}
+.story-container.show .blurb {
+  display: inline-block;
+}
+
 .story-container .blurb .name {
   margin-top: 0;
 }

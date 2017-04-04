@@ -140,34 +140,34 @@ d3.csv("data.csv", function(d, i, columns) {
   }
 
   function picClick() {
-    const imgName = this.getAttribute('data-name');
     const name = document.querySelector('.name');
+    const dataName = this.getAttribute('data-name');
+    const pics = Array.from(document.querySelectorAll('.prof-pic'));
+    pics.forEach(pic => pic.classList.remove('no-filter'));
 
-    name.textContent = imgName;
+    name.textContent = dataName;
     container.classList.add('show');
+
     row.classList.add('filter');
     this.classList.add('no-filter');
-    // console.log(this);
 
-    setBio(container.dataset.year, imgName);
+    setBio(container.dataset.year, dataName);
   }
 
 
   function setImg(alumniYear) {
-    console.log('set images');
-    const alumniArray = eval(alumniYear);
     // clear all children of row to add new ones
     while (row.firstChild) {
       row.removeChild(row.firstChild);
     }
+
+    const alumniArray = eval(alumniYear);
 
     alumniArray.forEach(alum => {
       const newImg = document.createElement('img');
       newImg.className = "prof-pic";
       newImg.src = alum.pic;
       newImg.dataset.name = alum.name;
-      // newImg.dataset.bio = alum.bio;
-
       row.appendChild(newImg);
     });
 

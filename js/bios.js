@@ -98,3 +98,76 @@ var alumni2014 = [
 	pic: "http://markhamac.com/clients/14633/images/puppy_golden_retriever.jpeg"
 }
 ];
+
+
+var alumni2015 = [
+{
+	name: "Seraphine Taylor",
+	bio: "Seraphine is a mother of four children and a grandmother of four grandchildren. On July 22, 2001, she lost her first born son and oldest child. Since the tragedy in her life, she has taken a different journey. She began working and giving support to multiple programs and organizations. She first started with The Louis D Brown Peace Institute, and completed a course with the LAMP program (Living After Murder Program). Seraphine received awards from different programs and organizations including the GBOS Image Award, Legacy Makers Ministries, and Legacy Lices on, and The Governors Alliances, just to name a few. Over the past 14 years, she has been a supporter, mento, organizer, and outreach worker, and has been humbled to be able to give her time and talents to a community that she loves so much.",
+	pic: "http://markhamac.com/clients/14633/images/puppy_golden_retriever.jpeg"
+},
+{
+	name: "Carla Sheffield",
+	bio: "Carla is a mother of five with two daughters and three boys. Carla has created a nonprofit organization in memory of her son called \"Live4BO,\" which works with teens on empowerment through education and art expression. Carla sat on Governer Weld's Women's Commission and has her masters in criminal justice. She worked for the court for eight years and has been working for the Commonwealth for 19 years and Senator Murray for eleven years.",
+	pic: "http://markhamac.com/clients/14633/images/puppy_golden_retriever.jpeg"
+},
+{
+	name: "Fay Rackley",
+	bio: "Fay's son, Kenneth Keith Rackley, passed on July 25th, 2010. Fay says, \"Kenny was the life of the family.\" Fay wants to be there for mothers going through loss and provide support. She is currently part of \"Legacy Lives On\" which is an online support group for family of children who have been lost to murder or homicide. Fay is also part of Mothers for Justive and Equality and speaks highly of the organization. \"Everyone is there for each other.\"",
+	pic: "http://markhamac.com/clients/14633/images/puppy_golden_retriever.jpeg"
+},
+{
+	name: "Audrey Brown-Perkins",
+	bio: "Audrey currently works part-time at Children's Services of Roxbury, working with children who have mental health issues. She lost her oldest son, Antoine D. Perkins, to violence in 2006. Since that event, Audrey has graduated college with her Bachelors in Human Servies with a concentration in Youth Development and Community. Audrey campaigns with \"Our Mattapan\" and her billboard can be see on Blue Hill Avenue. Her focus is on her youngest son and getting him the support he needs. Audrey's wish for Boston Public Schools is to have a \"Trauma Response Team\" in schools for support. Audrey holds a Back Yard Barbeque in honor of her son for the community every year.",
+	pic: "http://markhamac.com/clients/14633/images/puppy_golden_retriever.jpeg"
+},
+{
+	name: "Eileen Paterson",
+	bio: "Eileen is a retired administrator of Verizon Communications. She is a daughter, mother, and grandmother. She raised her first granddaughter who is now 24 years old. After retirement, Eileen worked at the Metropolitan Council for Educational Opportunity (METCO) in Swampscott, as Assistant Director and bus monitor for three years. She is currently a volunteer at Mothers for Justice and Equality (MJE), serving on their Board of Directors. In addition, she also volunteered at the Women's Shleter at Shattuck Hospital. Eileen has an Associate Degree in Business Management from Fisher Junior College and a certificate in Compensation and Benefits Management from Northeastern University.",
+	pic: "http://markhamac.com/clients/14633/images/puppy_golden_retriever.jpeg"
+},
+{
+	name: "Gloria Mallory-Miles",
+	bio: "Mrs. Gloria Mallory-Miles was born and raised in Boston, MA. She is the mother of eight children, 30 grandchildren, and 16 great-grandchildren. Her love for children blossomed into her becoming a foster parent for many years, and a daycare provider for 24+ years. She is affectionately referred to by many as \"Auntie\"or \"Nana,\" which speaks to her gift of nurturing. Gloria took courses in Early Childhood Development at Wheelock COllege. She is a graduate of Bethel Bible Institute of Boston and her faith in God is her daily guide. She is an avid prayer warrior and intercessor. Gloria is a proud member of Mothers for Justice and Equality and has supported marches, rallies, empowerment events, even wearing the popular MJE purple and white \"It's NOT OK\" t-shirts! The tragic homicide of her 13 year old grandson, Steven Odom, brough her into the work of violence prevention and seeking peace for our city.",
+	pic: "http://markhamac.com/clients/14633/images/puppy_golden_retriever.jpeg"
+},
+{
+	name: "Susie Martin",
+	bio: "Susie lost her grandson, Jaewon Martin, to violence on May 8th, 2010. \"He took care of me, he would bring me to the grocery store because he knew I couldn't go by myself. He made everyone happy and wanted to do everything for everyone.\" Susie retired from the Register of Motor Vehicles after working for 28 years. She attends church and loves to sing.",
+	pic: "http://markhamac.com/clients/14633/images/puppy_golden_retriever.jpeg"
+},
+{
+	name: "Nicole Martin",
+	bio: "Nicole lost her son, Jaewon Martin, to violence on May 8th, 2010. \"I had him when I was 15, he was my brother and my son at the same time.\" Nicole speaks highly of her family saying, \"We all stuck together.\" Nicole works for Jogn Hancock Life Insurance and has been there for 13 years. She says that her son \"had big dreams and was very mature for his age.\"",
+	pic: "http://markhamac.com/clients/14633/images/puppy_golden_retriever.jpeg"
+},
+{
+	name: "Debra Johnson",
+	bio: "Debra has three children and five grandchildren. She worked at Eversource for 25 years. Her daughter comments, \"She is strong, diligent, hardworking, and determined to pay it forward to use her experience to help someone else.\" She is currently doing work at Roxbury Presbyterian church and facilitates a trauma group.",
+	pic: "http://markhamac.com/clients/14633/images/puppy_golden_retriever.jpeg"
+},
+{
+	name: "Dorothy Haskins",
+	bio: "Dorothy E. Haskins is a long-time community activist and organizer who is widely recognized throughout the city of Boston for her dedication to the neighborhoods of South End, Dorchester, and Roxbury since the 1960s. Dorothy has served on many boards, including the Columbia Point Neighborhood Health Center, Dimock Street Community Health Center, Jackson Square Task Force, Academy Homes Initiative, and the Jermaine Goffigan Peace and Healing Park. Dorothy served as a Community Organizer for the Office of Community Affairs under former Mayor Kevin White. She has also been honored by former City of Boston Mayor Menino for her activism work.",
+	pic: "http://markhamac.com/clients/14633/images/puppy_golden_retriever.jpeg"
+},
+{
+	name: "Carrie Fletcher",
+	bio: "Minister Carrie Fletcher was born and riased in Boston, Massachusetts. Minister Fletcher has four daughters who were raised and attend schools here in Boston. She has been a pastoral care volunteer at Boston Medical Center since 2002. Since 2003, she has produced and directed 50+ fashion shows as well as a wonderful \"Let's Talk Show\" and \"Gospel Show\" all in the name of \"God's Glory\" which are featured on the local Boston Neighborhood Network.",
+	pic: "http://markhamac.com/clients/14633/images/puppy_golden_retriever.jpeg"
+},
+{
+	name: "Shondell Davis",
+	bio: "Shondell is a member of Mothers for Justice and Equality and completed the \"You Matter\" class. Her son, Johnny Davis, was killed April 24th, 2009 and she hopes to inspire women that have been affected by homicide that are \"behind closed doors.\" She works at the Brigham and Women's Hospital Pharmacy and is graduating from Springfield College with her masters for Management Leadership Organization.",
+	pic: "http://markhamac.com/clients/14633/images/puppy_golden_retriever.jpeg"
+},
+{
+	name: "Susan L. Curry",
+	bio: "Susan lves in Dorchester/Roxbury area and advocates for change in her community. There is currently a community center in her name and it is an afterschool program. The Susan L. Curry Community Center works to encourage young people that there's a better way to life. Susan lost her grandson and her daughter and joined Mothers for Justice and Equality. Susan is also a cancer survivor and views her recovery as a second chance. \"God have me that second time to encourage others.\"",
+	pic: "http://markhamac.com/clients/14633/images/puppy_golden_retriever.jpeg"
+}, {
+	name: "Virginie Cazir",
+	bio: "Virginie Cazir was born in Miami Florida and raised inn Port-au-Prince, Haiti. She moved back to the United states at the age of 16. A proud single mom of two wonderful boys, Mark Anthony who is now 12 years old, and her beloved late angel Gabriel who was taken from the world way too soon at 17 months old. After the tragic death of her son, Virginie has been on a journey to help single moms and parents with young kids. She went to the City of Boston to lobby a law that will protect children from tragic accidents.",
+	pic: "http://markhamac.com/clients/14633/images/puppy_golden_retriever.jpeg"
+}
+]
