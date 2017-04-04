@@ -119,12 +119,22 @@ d3.csv("data.csv", function(d, i, columns) {
   .text(function(d) { return d; });
 
   const bars = Array.from(document.querySelectorAll('.bar'));
-  bars.forEach(bar => bar.addEventListener('click', clickHandler));
-  // console.log(bars);
+  bars.forEach(bar => bar.addEventListener('click', barClick));
+  console.log(bars);
 
-  function clickHandler() {
+  function barClick() {
     const year = this.parentNode.className.baseVal;
 
+  }
+
+
+  const pics = Array.from(document.querySelectorAll('.prof-pic'));
+  pics.forEach(pic => pic.addEventListener('click', picClick));
+  console.log(pics);
+
+  function picClick() {
+    // const year = this.parentNode.className.baseVal;
+    console.log('pic clicked');
   }
 });
 
