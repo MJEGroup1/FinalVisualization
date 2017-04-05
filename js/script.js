@@ -84,6 +84,7 @@ d3.csv("data.csv", function(d, i, columns) {
   .attr("y", -25)
   .attr("fill", "#000")
   .attr("font-weight", "bold")
+  .attr("font-size", 14)
   .attr("text-anchor", "rt")
   .text("Number of People");
 
@@ -94,13 +95,15 @@ d3.csv("data.csv", function(d, i, columns) {
   .attr("y", height + 30)
   .attr("fill", "#000")
   .attr("font-weight", "bold")
+  .attr("font-size", 14)
   .attr("text-anchor", "end")
   .text("Years");
 
   var legend = g.append("g")
-  .attr("font-family", "sans-serif")
+  .attr("class", "legend")
   .attr("font-size", 10)
   .attr("text-anchor", "end")
+  .attr("transform", "translate(0," + (-20) + ")")
   .selectAll("g")
   .data(keys.slice().reverse())
   .enter().append("g")
@@ -134,6 +137,7 @@ d3.csv("data.csv", function(d, i, columns) {
     container.dataset.year = alumni.concat(year);
 
     container.classList.remove('show');
+    row.classList.remove('filter');
     $('.story-container').fadeIn();
 
     setImg(container.dataset.year);
@@ -164,11 +168,15 @@ d3.csv("data.csv", function(d, i, columns) {
     const alumniArray = eval(alumniYear);
 
     alumniArray.forEach(alum => {
+      const imgContainer = document.createElement('div');
+      imgContainer.className = "img-container";
+      row.appendChild(imgContainer);
+
       const newImg = document.createElement('img');
       newImg.className = "prof-pic";
       newImg.src = alum.pic;
       newImg.dataset.name = alum.name;
-      row.appendChild(newImg);
+      imgContainer.appendChild(newImg);
     });
 
     const pics = Array.from(document.querySelectorAll('.prof-pic'));

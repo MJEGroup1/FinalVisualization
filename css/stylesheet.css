@@ -1,7 +1,15 @@
 body {
   font-family: 'Palanquin', sans-serif;
   text-align: center;
-  padding: 0 100px;
+  padding: 20px 100px;
+}
+
+h1, h2 {
+  margin: 10px 0;
+  line-height: 1;
+}
+h2 {
+  margin-bottom: 30px;
 }
 
 svg {
@@ -76,11 +84,13 @@ svg {
   flex-wrap: wrap;
   margin-bottom: 20px;
 }
+.story-container .grid .row .img-container {
+  width: 30%;
+  margin-bottom: 10px;
+}
 .story-container .grid .row img {
-  width: 100px;
-  height: 100px;
+  width: 100%;
   border-radius: 100%;
-  margin-bottom: 15px;
   cursor: pointer;
   transition: all 0.25s ease-in;
 }
