@@ -12,6 +12,15 @@ h2 {
   margin-bottom: 30px;
 }
 
+table {
+  width:100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
 svg {
   margin: 0 auto;
   position: absolute;
