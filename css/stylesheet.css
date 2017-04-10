@@ -1,14 +1,6 @@
-body {
-/*   text-align: center;
-padding: 20px 100px; */
-}
-
 h1, h2 {
   margin: 10px 0;
   line-height: 1;
-}
-h2 {
-  margin-bottom: 30px;
 }
 
 table {
@@ -18,6 +10,13 @@ table {
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
+}
+table th {
+  padding: 0.75em;
+  font-weight: 700;
+}
+table tbody tr:not(:first-child) {
+  background: transparent !important;
 }
 
 svg {
@@ -65,13 +64,16 @@ svg {
   max-width: 1000px;
   margin: 0 auto 100px;
   position: relative;
-  top: 50px;
+  top: 30px;
   transition: all 0.25s ease-in;
   display: none;
 }
+.story-container .year {
+  font-size: 28px;
+}
 .story-container .grid {
   margin: 0 auto;
-  width: 350px;
+  width: 360px;
 }
 .story-container.show .grid, .story-container.show .blurb {
   display: inline-block;
@@ -80,14 +82,14 @@ svg {
   text-align: left;
 }
 .story-container.show .grid {
+  width: 360px;
   margin-right: 20px;
-  width: 40%;
 }
 .story-container .grid .row {
   /* display: flex;
   justify-content: space-between;
   flex-wrap: wrap; */
-  margin-bottom: 20px;
+  margin: 0;
 }
 .story-container .grid .row .img-container {
   width: 100px;

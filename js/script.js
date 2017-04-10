@@ -128,6 +128,7 @@ d3.csv("data.csv", function(d, i, columns) {
   const bars = Array.from(document.querySelectorAll('.bar'));
   const container = document.querySelector('.story-container');
   const row = document.querySelector('.grid .row');
+  const yearLabel = document.querySelector('.story-container .year');
 
   bars.forEach(bar => bar.addEventListener('click', barClick));
 
@@ -140,6 +141,7 @@ d3.csv("data.csv", function(d, i, columns) {
     row.classList.remove('filter');
     $('.story-container').fadeIn();
 
+    yearLabel.textContent = year + ' Awardees';
     setImg(container.dataset.year);
   }
 
