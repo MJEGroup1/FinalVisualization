@@ -105,7 +105,7 @@ d3.csv("data.csv", function(d, i, columns) {
   .attr("text-anchor", "end")
   .attr("transform", "translate(0," + (-20) + ")")
   .selectAll("g")
-  .data(keys.slice().reverse())
+  .data(keys.slice())
   .enter().append("g")
   .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
 
@@ -119,6 +119,7 @@ d3.csv("data.csv", function(d, i, columns) {
   .attr("x", width - 24)
   .attr("y", 9.5)
   .attr("dy", "0.32em")
+  .attr("font-size", "14px")
   .text(function(d) { return d; });
 
 
