@@ -30,11 +30,6 @@ var alumni2013 = [
 	pic: "./img/2013/debbie_haskins_goffigan.png"
 },
 {
-	name: "Aretha Mauge",
-	bio: "Aretha stands with MJE since her son Devonte Mauge-Franklin's murder on December 31, 2008. She has committed herself to working within the community and alongside other mothers to help effect positive change in the city. Aretha has been a dedicated optimist and works in memory of her son.",
-	pic: "./img/2013/aretha_mauge.png"
-},
-{
 	name: "Kim Odom",
 	bio: "Kim Odom is the brave and courageous mother of Steven Odom, a teen whose life was taken on October 4, 2007. Kim gathered her strength and became a mother for justice, ready to advocate against violence in the urban community.",
 	pic: "./img/2013/kim_odom.png"
@@ -122,11 +117,6 @@ var alumni2015 = [
 	pic: "./img/2015/audrey_brown_perkins.png"
 },
 {
-	name: "Eileen Paterson",
-	bio: "Eileen is a retired administrator of Verizon Communications. She is a daughter, mother, and grandmother. She raised her first granddaughter who is now 24 years old. After retirement, Eileen worked at the Metropolitan Council for Educational Opportunity (METCO) in Swampscott, as Assistant Director and bus monitor for three years. She is currently a volunteer at Mothers for Justice and Equality (MJE), serving on their Board of Directors. In addition, she also volunteered at the Women's Shleter at Shattuck Hospital. Eileen has an Associate Degree in Business Management from Fisher Junior College and a certificate in Compensation and Benefits Management from Northeastern University.",
-	pic: "./img/2015/eileen_paterson.png"
-},
-{
 	name: "Gloria Mallory-Miles",
 	bio: "Mrs. Gloria Mallory-Miles was born and raised in Boston, MA. She is the mother of eight children, 30 grandchildren, and 16 great-grandchildren. Her love for children blossomed into her becoming a foster parent for many years, and a daycare provider for 24+ years. She is affectionately referred to by many as \"Auntie\"or \"Nana,\" which speaks to her gift of nurturing. Gloria took courses in Early Childhood Development at Wheelock COllege. She is a graduate of Bethel Bible Institute of Boston and her faith in God is her daily guide. She is an avid prayer warrior and intercessor. Gloria is a proud member of Mothers for Justice and Equality and has supported marches, rallies, empowerment events, even wearing the popular MJE purple and white \"It's NOT OK\" t-shirts! The tragic homicide of her 13 year old grandson, Steven Odom, brough her into the work of violence prevention and seeking peace for our city.",
 	pic: "./img/2015/gloria_mallory_miles.png"
@@ -169,5 +159,18 @@ var alumni2015 = [
 	name: "Virginie Cazir",
 	bio: "Virginie Cazir was born in Miami Florida and raised inn Port-au-Prince, Haiti. She moved back to the United states at the age of 16. A proud single mom of two wonderful boys, Mark Anthony who is now 12 years old, and her beloved late angel Gabriel who was taken from the world way too soon at 17 months old. After the tragic death of her son, Virginie has been on a journey to help single moms and parents with young kids. She went to the City of Boston to lobby a law that will protect children from tragic accidents.",
 	pic: "./img/2015/virginie_cazir.png"
+}
+]
+
+var alumni2016 = [
+{
+	name: "Aretha Mauge",
+	bio: "Aretha stands with MJE since her son Devonte Mauge-Franklin's murder on December 31, 2008. She has committed herself to working within the community and alongside other mothers to help effect positive change in the city. Aretha has been a dedicated optimist and works in memory of her son.",
+	pic: "./img/2013/aretha_mauge.png"
+},
+{
+	name: "Eileen Paterson",
+	bio: "Eileen is a retired administrator of Verizon Communications. She is a daughter, mother, and grandmother. She raised her first granddaughter who is now 24 years old. After retirement, Eileen worked at the Metropolitan Council for Educational Opportunity (METCO) in Swampscott, as Assistant Director and bus monitor for three years. She is currently a volunteer at Mothers for Justice and Equality (MJE), serving on their Board of Directors. In addition, she also volunteered at the Women's Shleter at Shattuck Hospital. Eileen has an Associate Degree in Business Management from Fisher Junior College and a certificate in Compensation and Benefits Management from Northeastern University.",
+	pic: "./img/2015/eileen_paterson.png"
 }
 ]
