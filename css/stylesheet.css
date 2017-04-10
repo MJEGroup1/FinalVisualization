@@ -1,7 +1,6 @@
 body {
-  font-family: 'Palanquin', sans-serif;
-  text-align: center;
-  padding: 20px 100px;
+/*   text-align: center;
+padding: 20px 100px; */
 }
 
 h1, h2 {
@@ -17,15 +16,12 @@ table {
 }
 
 table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
+  border: 1px solid black;
+  border-collapse: collapse;
 }
 
 svg {
   margin: 0 auto;
-  position: absolute;
-  left: 0;
-  right: 0;
 }
 
 .bar {
@@ -69,13 +65,13 @@ svg {
   max-width: 1000px;
   margin: 0 auto 100px;
   position: relative;
-  top: 450px;
+  top: 50px;
   transition: all 0.25s ease-in;
   display: none;
 }
 .story-container .grid {
   margin: 0 auto;
-  width: 35%;
+  width: 350px;
 }
 .story-container.show .grid, .story-container.show .blurb {
   display: inline-block;
@@ -84,18 +80,20 @@ svg {
   text-align: left;
 }
 .story-container.show .grid {
-  margin-right: 40px;
-  width: 35%;
+  margin-right: 20px;
+  width: 40%;
 }
 .story-container .grid .row {
-  display: flex;
+  /* display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+  flex-wrap: wrap; */
   margin-bottom: 20px;
 }
 .story-container .grid .row .img-container {
-  width: 30%;
-  margin-bottom: 10px;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  padding: 0;
 }
 .story-container .grid .row img {
   width: 100%;
@@ -124,6 +122,7 @@ svg {
 }
 .story-container.show .blurb {
   display: inline-block;
+  margin-top: 20px;
 }
 
 .story-container .blurb .name {
