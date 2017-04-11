@@ -49,7 +49,8 @@ d3.csv("data.csv", function(d, i, columns) {
   .attr("transform", function(d) {
     return "translate(" + x0(d.Year) + ",0)";
   })
-  .attr("class", function(d) { return d.Year; })
+  .attr("id", function(d) { return d.Year; })
+  .attr("class", "bar-set")
   .selectAll("rect")
   .data(function(d) {
     return keys.map(function(key) {
@@ -135,7 +136,7 @@ d3.csv("data.csv", function(d, i, columns) {
 
   function barClick() {
     const alumni = 'alumni';
-    const year = this.parentNode.className.baseVal;
+    const year = this.parentNode.id;
     container.dataset.year = alumni.concat(year);
 
     container.classList.remove('show');
@@ -144,6 +145,7 @@ d3.csv("data.csv", function(d, i, columns) {
 
     yearLabel.textContent = year + ' Awardees';
     setImg(container.dataset.year);
+    setBarColors(year);
   }
 
   function picClick() {
@@ -196,6 +198,12 @@ d3.csv("data.csv", function(d, i, columns) {
         bio.textContent = alum.bio;
       }
     });
+  }
+
+  function setBarColors(year) {
+    $('.bar').addClass('bar-inactive');
+    const barSet = ($('#' + year));
+    barSet.children().removeClass('bar-inactive');
   }
 
 });
