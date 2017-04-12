@@ -3,6 +3,10 @@ h1, h2 {
   line-height: 1;
 }
 
+p.subheader {
+  text-align: center;
+}
+
 p {
   text-align: left;
 }
