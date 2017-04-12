@@ -43,7 +43,7 @@
               <li><a href="http://mothersforjusticeandequality.org/" class="button">Learn More About MJE</a></li>
             </ul>
           </div>
-          <span class="image"><img src="./img/love.jpg" alt="" /></span>
+          <span class="image"><img src="./img/caption.png" alt="" /></span>
         </div>
       </section>
 
@@ -97,83 +97,80 @@
       <section id="designProcess" class="main special">
         <header class="major">
           <h2>Design Process</h2>
+          <a href="../img/final_sketch.pdf" class="button">Final Sketches</a>
         </header>
-        <a href="img/final_sketch.pdf" target="_blank">Final Sketches</a>
         <ul class="features">
           <li>
-            <span class="icon major style1 fa-code"></span>
+            <span class="icon major style1 fa-pencil"></span>
             <h3>Sketches</h3>
             <p>We began the design of our app by sketching out ideas for different types of visualizations that we could make with the data we were given. These sketches included a variety of different line and bar graphs, most of which compared MJE enrollment numbers in different programs year to year. In the end, we settled on a grouped bar graph that displayed enrollment in the You Matter program and number of active alumni per year.</p>
-          <li>
-            <span class="icon major style3 fa-copy"></span>
-            <h3>Mockups</h3>
-            <p>After settling on the data and type of chart we wanted to use for our visulization, we began to brainstorm ideas for adding color and interactivity. Since purple is a prominant color in MJE's brand, we deicded to use two shades of it to differentiate the two types of bars on our chart. We chose to use the details on demand technique to make our visualization interactive: when either of the bars for a year are clicked, the MJE awardees for that year and their stories will be shown below the chart.</p>
-          </li>
-          <li>
-            <span class="icon major style5 fa-diamond"></span>
-            <h3>Final Design</h3>
-            <p>Finally, made a few final tweaks tweaks to our desighn and built then implementation. We decided that it would be best to show all the MJE award recipients, rather than just 3 per year, and made changes to our designs to acommodate this. We then used D3 and javascript to implement our designs.</p>
-          </li>
-        </ul>
-      </section>
+            <li>
+              <span class="icon major style3 fa-copy"></span>
+              <h3>Mockups</h3>
+              <p>After settling on the data and type of chart we wanted to use for our visulization, we began to brainstorm ideas for adding color and interactivity. Since purple is a prominent color in MJE's brand, we decided to use two shades of it to differentiate the two types of bars on our chart. We chose to use the details on demand technique to make our visualization interactive -- when either of the bars for a year are clicked, the MJE awardees for that year and their stories will be shown below the chart.</p>
+            </li>
+            <li>
+              <span class="icon major style5 fa-file-code-o"></span>
+              <h3>Final Design</h3>
+              <p>Finally, we made a few last tweaks to our design before beginning to code the implementation. We decided that it would be best to show all the MJE award recipients, rather than just 3 per year, and made changes to our designs to acommodate this. We then used D3.js, CSS, and JavaScript to implement our designs.</p>
+            </li>
+          </ul>
+        </section>
 
-
-
-      <section id="finalVisualization" class="main special">
-        <header class="major">
-          <h2>Final Visualization</h2>
-        </header>
-        <h2>You Matter Leadership Program</h2>
-        <h3>Attendees vs. Alumni (Mentors)</h3>
-        <svg width="700" height="400"></svg>
-        <div class="story-container">
-          <h3 class="year"></h3>
-          <div class="grid">
-            <div class="row"></div>
+        <section id="finalVisualization" class="main special">
+          <header class="major">
+            <h2>Final Visualization</h2>
+          </header>
+          <h2>You Matter Leadership Program</h2>
+          <h3>Attendees vs. Alumni (Mentors)</h3>
+          <svg width="700" height="400"></svg>
+          <div class="story-container">
+            <h3 class="year"></h3>
+            <div class="grid">
+              <div class="row"></div>
+            </div>
+            <div class="blurb">
+              <h2 class="name"></h2>
+              <p class="bio"></p>
+            </div>
           </div>
-          <div class="blurb">
-            <h2 class="name"></h2>
-            <p class="bio"></p>
-          </div>
-        </div>
-      </section>
+        </section>
 
-      <section id="dataAnalysis" class="main special">
-        <header class="major">
-          <h2>Data Analysis</h2>
+        <section id="dataAnalysis" class="main special">
+          <header class="major">
+            <h2>Data Analysis</h2>
+          </header>
           <p>As our data is focused more on the stories of MJE members, we weren't able to make quite as many inferences as we could have with a more expansive data set. However, there are a few conclusions that can be drawn from our visualization. First, both enrollment in MJE's you matter program and number of active alumni have followed a general upward trend over the course of the past few years. Secondly, a significant number of You Matter alumni remain active with the orgnization. Finally, there seems to be a correlation between number of particants in the You Matter program and the increase in active alumni the following year, suggesting the the percentage of returning participants is about the same year-to-year.</p>
-        </header>
-      </section>
+        </section>
 
-      <section id="conclusion" class="main special">
-        <header class="major">
-          <h2>Conclusion</h2>
-          <p>Overall, we beleive we made a successful visualization that both displays current trends in MJE's programs and showcases the powerful and emotional stories of the women that make their organization what it is. Looking back, we are especially happy with our choice to display stories of all MJE's awardees, rather than just three per year. We believe that in the future, similar visualizations could be used to show enrollment for other MJE programs</p>
-        </header>
-      </section>
+        <section id="conclusion" class="main special">
+          <header class="major">
+            <h2>Conclusion</h2>
+          </header>
+          <p>Overall, we beleive we made a successful visualization that both displays current trends in MJE's programs and showcases the powerful and emotional stories of the women that make their organization what it is. Looking back, we are especially happy with our choice to display stories of all MJE's awardees, rather than just three per year. We believe that in the future, similar visualizations could be used to show enrollment for other MJE programs.</p>
+        </section>
+      </div>
     </div>
+
+    <footer id="footer">
+      <div class="creds">Template Design by <a href="https://html5up.net/stellar">HTML5 UP</a></div>
+    </footer>
+
   </div>
 
 
-  <footer id="footer">
-    <p>Template Design by <a href="https://html5up.net/stellar">HTML5 UP</a></p>
-  </footer>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
 
-</div>
+  <script src="./js/lib/jquery.scrollex.min.js"></script>
+  <script src="./js/lib/jquery.scrolly.min.js"></script>
+  <script src="./js/lib/skel.min.js"></script>
+  <script src="./js/lib/util.js"></script>
+  <script src="./js/lib/main.js"></script>
+  <script src="./js/lib/d3-tip.js"></script>
 
-
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script src="https://d3js.org/d3.v4.min.js"></script>
-
-<script src="./js/lib/jquery.scrollex.min.js"></script>
-<script src="./js/lib/jquery.scrolly.min.js"></script>
-<script src="./js/lib/skel.min.js"></script>
-<script src="./js/lib/util.js"></script>
-<script src="./js/lib/main.js"></script>
-<script src="./js/lib/d3-tip.js"></script>
-
-<script src="./js/bios.js"></script>
-<script src="./js/script.js"></script>
+  <script src="./js/bios.js"></script>
+  <script src="./js/script.js"></script>
 
 </body>
 </html>

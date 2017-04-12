@@ -1,3 +1,7 @@
+* {
+  letter-spacing: 0 !important;
+}
+
 h1, h2 {
   margin: 10px 0;
   line-height: 1;
@@ -141,4 +145,15 @@ svg {
 
 .story-container .blurb .name {
   margin-top: 0;
+}
+
+#footer {
+  padding: 4em;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.creds {
+  margin: 0 auto !important;
+  text-align: center;
 }
