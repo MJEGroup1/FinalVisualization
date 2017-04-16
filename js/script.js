@@ -148,7 +148,8 @@ d3.csv("data.csv", function(d, i, columns) {
     setBarColors(year);
   }
 
-  function picClick() {
+  function picClick(event) {
+    event.stopPropagation();
     const name = document.querySelector('.name');
     const dataName = this.getAttribute('data-name');
     const pics = Array.from(document.querySelectorAll('.prof-pic'));
@@ -206,5 +207,30 @@ d3.csv("data.csv", function(d, i, columns) {
     barSet.children().removeClass('bar-inactive');
   }
 
-});
+
+  // if click anywhere other than vis-container, clear info
+  $(document).click(function(ev) {
+    reset();
+  });
+
+  $('#reset').click(function() {
+    reset();
+  });
+
+  function reset() {
+    $('.story-container').fadeOut();
+    $('.bar').removeClass('bar-inactive');
+  }
+
+  $('.prof-pic').click(function(event){
+    picClick(event);
+  });
+
+  $('.bar').click(function(event){
+    event.stopPropagation();
+  });
+
+
+
+ });
 

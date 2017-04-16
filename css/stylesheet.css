@@ -157,3 +157,14 @@ svg {
   margin: 0 auto !important;
   text-align: center;
 }
+
+.title {
+  position: relative;
+}
+
+#reset {
+  position: absolute;
+  right: 0;
+  top: 0;
+  min-width: 5em;
+}
