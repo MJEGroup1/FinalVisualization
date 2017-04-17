@@ -203,8 +203,10 @@ d3.csv("data.csv", function(d, i, columns) {
 
   function setBarColors(year) {
     $('.bar').addClass('bar-inactive');
+    $('.bar').removeClass('bar-highlighted');
     const barSet = ($('#' + year));
     barSet.children().removeClass('bar-inactive');
+    barSet.children().addClass('bar-highlighted');
   }
 
 
@@ -220,6 +222,7 @@ d3.csv("data.csv", function(d, i, columns) {
   function reset() {
     $('.story-container').fadeOut();
     $('.bar').removeClass('bar-inactive');
+    $('.bar').removeClass('bar-highlighted');
   }
 
   $('.prof-pic').click(function(event){
