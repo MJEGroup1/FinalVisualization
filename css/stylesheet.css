@@ -51,6 +51,9 @@ svg {
 .bar-highlighted {
   cursor: default;
 }
+.bar-highlighted:hover {
+  opacity: 1;
+}
 
 .d3-tip {
   line-height: 1;
