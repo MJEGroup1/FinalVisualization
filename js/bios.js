@@ -21,7 +21,7 @@ var alumni2013 = [
 },
 {
 	name: "Sarah Flint",
-	bio: "Sarah is a soulful activist and the mother of four children. Her fight for equality began when her son Jimmy was murdered. She has been a Community Organizer for 29 years, and has worked with families and legislation throughout the country, inlcluding meeting with First Lady Michelle Obama. Sarah's empathy for other mothers who have suffered the loss of a child combined with her activism makes her an effective leader and supporter.",
+	bio: "Sarah is a soulful activist and the mother of four children. Her fight for equality began when her son Jimmy was murdered. She has been a Community Organizer for 29 years, and has worked with families and legislation throughout the country, including meeting with First Lady Michelle Obama. Sarah's empathy for other mothers who have suffered the loss of a child combined with her activism makes her an effective leader and supporter.",
 	pic: "./img/2013/sarah_flint.png"
 },
 {
@@ -64,7 +64,7 @@ var alumni2014 = [
 },
 {
 	name: "Miranaluz Ramos",
-	bio: "Mirna Ramos is a congregant at St. Stephen's Episcopal Church in the South End. Mirna is a leader in the B-PEACE for Jorge campaign that is being run by the Episcopal Diocese of Massachusetts. Mirna is a single parent of four boys and one girl. Mirna is a single parent of four boys and one girl. Mirna has worked for Orchard Garden School, supporting autistic elementary students. She has lived in Dorchester for eleven years. Mirna works diligently every day to reform state and federal gun laws, given she lost her 19 year old son, Jorge Fuentes, on September 10, 2012. Mirna's goal is to create more peace in Boston, and everywhere, by changing the laws to prevent violence.",
+	bio: "Mirna Ramos is a congregate at St. Stephen's Episcopal Church in the South End. Mirna is a leader in the B-PEACE for Jorge campaign that is being run by the Episcopal Diocese of Massachusetts. Mirna is a single parent of four boys and one girl. Mirna is a single parent of four boys and one girl. Mirna has worked for Orchard Garden School, supporting autistic elementary students. She has lived in Dorchester for eleven years. Mirna works diligently every day to reform state and federal gun laws, given she lost her 19 year old son, Jorge Fuentes, on September 10, 2012. Mirna's goal is to create more peace in Boston, and everywhere, by changing the laws to prevent violence.",
 	pic: "./img/2014/miranaluz_ramos.png"
 },
 {
@@ -98,27 +98,27 @@ var alumni2014 = [
 var alumni2015 = [
 {
 	name: "Seraphine Taylor",
-	bio: "Seraphine is a mother of four children and a grandmother of four grandchildren. On July 22, 2001, she lost her first born son and oldest child. Since the tragedy in her life, she has taken a different journey. She began working and giving support to multiple programs and organizations. She first started with The Louis D Brown Peace Institute, and completed a course with the LAMP program (Living After Murder Program). Seraphine received awards from different programs and organizations including the GBOS Image Award, Legacy Makers Ministries, and Legacy Lices on, and The Governors Alliances, just to name a few. Over the past 14 years, she has been a supporter, mento, organizer, and outreach worker, and has been humbled to be able to give her time and talents to a community that she loves so much.",
+	bio: "Seraphine is a mother of four children and a grandmother of four grandchildren. On July 22, 2001, she lost her first born son and oldest child. Since the tragedy in her life, she has taken a different journey. She began working and giving support to multiple programs and organizations. She first started with The Louis D Brown Peace Institute, and completed a course with the LAMP program (Living After Murder Program). Seraphine received awards from different programs and organizations including the GBOS Image Award, Legacy Makers Ministries, and Legacy Lives on, and The Governors Alliances, just to name a few. Over the past 14 years, she has been a supporter, mentor, organizer, and outreach worker, and has been humbled to be able to give her time and talents to a community that she loves so much.",
 	pic: "./img/2015/seraphine_taylor.png"
 },
 {
 	name: "Carla Sheffield",
-	bio: "Carla is a mother of five with two daughters and three boys. Carla has created a nonprofit organization in memory of her son called \"Live4BO,\" which works with teens on empowerment through education and art expression. Carla sat on Governer Weld's Women's Commission and has her masters in criminal justice. She worked for the court for eight years and has been working for the Commonwealth for 19 years and Senator Murray for eleven years.",
+	bio: "Carla is a mother of five with two daughters and three boys. Carla has created a nonprofit organization in memory of her son called \"Live4BO,\" which works with teens on empowerment through education and art expression. Carla sat on Governor Weld's Women's Commission and has her masters in criminal justice. She worked for the court for eight years and has been working for the Commonwealth for 19 years and Senator Murray for eleven years.",
 	pic: "./img/2015/carla_sheffield.png"
 },
 {
 	name: "Fay Rackley",
-	bio: "Fay's son, Kenneth Keith Rackley, passed on July 25th, 2010. Fay says, \"Kenny was the life of the family.\" Fay wants to be there for mothers going through loss and provide support. She is currently part of \"Legacy Lives On\" which is an online support group for family of children who have been lost to murder or homicide. Fay is also part of Mothers for Justive and Equality and speaks highly of the organization. \"Everyone is there for each other.\"",
+	bio: "Fay's son, Kenneth Keith Rackley, passed on July 25th, 2010. Fay says, \"Kenny was the life of the family.\" Fay wants to be there for mothers going through loss and provide support. She is currently part of \"Legacy Lives On\" which is an online support group for family of children who have been lost to murder or homicide. Fay is also part of Mothers for Justice and Equality and speaks highly of the organization. \"Everyone is there for each other.\"",
 	pic: "./img/2015/fay_rackley.png"
 },
 {
 	name: "Audrey Brown-Perkins",
-	bio: "Audrey currently works part-time at Children's Services of Roxbury, working with children who have mental health issues. She lost her oldest son, Antoine D. Perkins, to violence in 2006. Since that event, Audrey has graduated college with her Bachelors in Human Servies with a concentration in Youth Development and Community. Audrey campaigns with \"Our Mattapan\" and her billboard can be see on Blue Hill Avenue. Her focus is on her youngest son and getting him the support he needs. Audrey's wish for Boston Public Schools is to have a \"Trauma Response Team\" in schools for support. Audrey holds a Back Yard Barbeque in honor of her son for the community every year.",
+	bio: "Audrey currently works part-time at Children's Services of Roxbury, working with children who have mental health issues. She lost her oldest son, Antoine D. Perkins, to violence in 2006. Since that event, Audrey has graduated college with her Bachelors in Human Services with a concentration in Youth Development and Community. Audrey campaigns with \"Our Mattapan\" and her billboard can be see on Blue Hill Avenue. Her focus is on her youngest son and getting him the support he needs. Audrey's wish for Boston Public Schools is to have a \"Trauma Response Team\" in schools for support. Audrey holds a Back Yard Barbecue in honor of her son for the community every year.",
 	pic: "./img/2015/audrey_brown_perkins.png"
 },
 {
 	name: "Gloria Mallory-Miles",
-	bio: "Mrs. Gloria Mallory-Miles was born and raised in Boston, MA. She is the mother of eight children, 30 grandchildren, and 16 great-grandchildren. Her love for children blossomed into her becoming a foster parent for many years, and a daycare provider for 24+ years. She is affectionately referred to by many as \"Auntie\"or \"Nana,\" which speaks to her gift of nurturing. Gloria took courses in Early Childhood Development at Wheelock COllege. She is a graduate of Bethel Bible Institute of Boston and her faith in God is her daily guide. She is an avid prayer warrior and intercessor. Gloria is a proud member of Mothers for Justice and Equality and has supported marches, rallies, empowerment events, even wearing the popular MJE purple and white \"It's NOT OK\" t-shirts! The tragic homicide of her 13 year old grandson, Steven Odom, brough her into the work of violence prevention and seeking peace for our city.",
+	bio: "Mrs. Gloria Mallory-Miles was born and raised in Boston, MA. She is the mother of eight children, 30 grandchildren, and 16 great-grandchildren. Her love for children blossomed into her becoming a foster parent for many years, and a daycare provider for 24+ years. She is affectionately referred to by many as \"Auntie\"or \"Nana,\" which speaks to her gift of nurturing. Gloria took courses in Early Childhood Development at Wheelock College. She is a graduate of Bethel Bible Institute of Boston and her faith in God is her daily guide. She is an avid prayer warrior and intercessor. Gloria is a proud member of Mothers for Justice and Equality and has supported marches, rallies, empowerment events, even wearing the popular MJE purple and white \"It's NOT OK\" t-shirts! The tragic homicide of her 13 year old grandson, Steven Odom, brought her into the work of violence prevention and seeking peace for our city.",
 	pic: "./img/2015/gloria_mallory_miles.png"
 },
 {
@@ -143,7 +143,7 @@ var alumni2015 = [
 },
 {
 	name: "Carrie Fletcher",
-	bio: "Minister Carrie Fletcher was born and riased in Boston, Massachusetts. Minister Fletcher has four daughters who were raised and attend schools here in Boston. She has been a pastoral care volunteer at Boston Medical Center since 2002. Since 2003, she has produced and directed 50+ fashion shows as well as a wonderful \"Let's Talk Show\" and \"Gospel Show\" all in the name of \"God's Glory\" which are featured on the local Boston Neighborhood Network.",
+	bio: "Minister Carrie Fletcher was born and raised in Boston, Massachusetts. Minister Fletcher has four daughters who were raised and attend schools here in Boston. She has been a pastoral care volunteer at Boston Medical Center since 2002. Since 2003, she has produced and directed 50+ fashion shows as well as a wonderful \"Let's Talk Show\" and \"Gospel Show\" all in the name of \"God's Glory\" which are featured on the local Boston Neighborhood Network.",
 	pic: "./img/2015/carrie_fletcher.png"
 },
 {
@@ -153,7 +153,7 @@ var alumni2015 = [
 },
 {
 	name: "Susan L. Curry",
-	bio: "Susan lves in Dorchester/Roxbury area and advocates for change in her community. There is currently a community center in her name and it is an afterschool program. The Susan L. Curry Community Center works to encourage young people that there's a better way to life. Susan lost her grandson and her daughter and joined Mothers for Justice and Equality. Susan is also a cancer survivor and views her recovery as a second chance. \"God have me that second time to encourage others.\"",
+	bio: "Susan lives in Dorchester/Roxbury area and advocates for change in her community. There is currently a community center in her name and it is an after school program. The Susan L. Curry Community Center works to encourage young people that there's a better way to life. Susan lost her grandson and her daughter and joined Mothers for Justice and Equality. Susan is also a cancer survivor and views her recovery as a second chance. \"God have me that second time to encourage others.\"",
 	pic: "./img/2015/susan_l_curry.png"
 }, {
 	name: "Virginie Cazir",
@@ -170,7 +170,7 @@ var alumni2016 = [
 },
 {
 	name: "Eileen Paterson",
-	bio: "Eileen is a retired administrator of Verizon Communications. She is a daughter, mother, and grandmother. She raised her first granddaughter who is now 24 years old. After retirement, Eileen worked at the Metropolitan Council for Educational Opportunity (METCO) in Swampscott, as Assistant Director and bus monitor for three years. She is currently a volunteer at Mothers for Justice and Equality (MJE), serving on their Board of Directors. In addition, she also volunteered at the Women's Shleter at Shattuck Hospital. Eileen has an Associate Degree in Business Management from Fisher Junior College and a certificate in Compensation and Benefits Management from Northeastern University.",
+	bio: "Eileen is a retired administrator of Verizon Communications. She is a daughter, mother, and grandmother. She raised her first granddaughter who is now 24 years old. After retirement, Eileen worked at the Metropolitan Council for Educational Opportunity (METCO) in Swampscott, as Assistant Director and bus monitor for three years. She is currently a volunteer at Mothers for Justice and Equality (MJE), serving on their Board of Directors. In addition, she also volunteered at the Women's Shelter at Shattuck Hospital. Eileen has an Associate Degree in Business Management from Fisher Junior College and a certificate in Compensation and Benefits Management from Northeastern University.",
 	pic: "./img/2015/eileen_paterson.png"
 }
 ]
